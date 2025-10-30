@@ -75,7 +75,7 @@
 						'';
 					};
 
-					packages = [
+					packages = with pkgs; [
 						kdePackages.dolphin
 						kitty
 						mpv

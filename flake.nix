@@ -4,8 +4,8 @@
 	inputs = {
 		# NixOS installation
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-		nixpkgs-master.url = "github:nixos/nixpkg/master";
-    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
+		# nixpkgs-master.url = "github:nixos/nixpkg/master";
+		# nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
 
 		nixos-hardware.url = "github:nixos/nixos-hardware/master";
 
@@ -20,7 +20,7 @@
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
 
-		pkgs-by-name-for-flake-parts.url = "github:grupol/pkgs-by-name-for-flake-parts";
+		# pkgs-by-name-for-flake-parts.url = "github:grupol/pkgs-by-name-for-flake-parts";
 
 		# Core of a distributed framework for writing Nix Flakes
 		# More info: `https://flake.parts`
@@ -48,6 +48,8 @@
 			url = "github:nix-community/NUR";
 			inputs.nixpkgs.follows = "nixpkgs";
 		};
+
+		systems.url = "github:nix-systems/default";
 
 		# Firefox theme
 		textfox.url = "github:adriankarlen/textfox";

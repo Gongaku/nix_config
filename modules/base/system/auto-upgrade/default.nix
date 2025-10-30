@@ -1,8 +1,9 @@
 {
-  flake.modules.nixos.base = {
+  flake.modules.nixos.base =
+		{ inputs, ... }: {
     system.autoUpgrade = {
       enable = true;
-      flake = "github:gongaku/nix_config";
+      flake = inputs.self.outPath;
       allowReboot = true;
 			flags = [
 				"--update-input"
