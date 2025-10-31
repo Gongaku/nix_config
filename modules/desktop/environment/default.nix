@@ -52,10 +52,6 @@
 						enable = true;
 						autoSuspend = false;
 					};
-					autoLogin = {
-						enable = true;
-						user = "${config.preferences.user.username}";
-					};
 				};
 			};
 

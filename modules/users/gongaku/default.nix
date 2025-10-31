@@ -63,6 +63,13 @@
 			home-manager.users."${user.username}" =
 			{ config, pkgs, ... }:
 			{
+				services.displayManager = {
+					autoLogin = {
+						enable = true;
+						user = "${config.preferences.user.username}";
+					};
+				};
+
 				home = {
 					file = {
 						# Python LSP style
