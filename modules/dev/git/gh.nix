@@ -12,7 +12,7 @@
 			};
 	};
 
-	nixpkgs.allowUnfreePackages = [
+	nixpkgs.allowedUnfreePackages = [
 		"gh-copilot"
 	];
 }
