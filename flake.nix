@@ -4,7 +4,7 @@
 	inputs = {
 		# NixOS installation
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-		nixpkgs-master.url = "github:nixos/nixpkg/master";
+		nixpkgs-master.url = "github:nixos/nixpkgs/master";
 		nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
 
 		nixos-hardware.url = "github:nixos/nixos-hardware/master";
