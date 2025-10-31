@@ -27,7 +27,7 @@
       nix.settings.auto-optimise-store = true;
       nix.settings.connect-timeout = 5;
       nix.settings.cores = 6;
-			nix.download-buffer-size = 524288000; # 500 MiB
+			nix.settings.download-buffer-size = 524288000; # 500 MiB
       nix.settings.experimental-features = [
         # Use auto-generated uids instead of users in the nixbld group
         "auto-allocate-uids"
