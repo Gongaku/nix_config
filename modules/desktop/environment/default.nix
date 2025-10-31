@@ -34,7 +34,7 @@
 
 			services = {
 				xserver = {
-					excludePackges = with pkgs; [ xterm ];
+					excludePackages = with pkgs; [ xterm ];
 					enable = lib.mkForce false;
 					videoDrivers = [ "modesetting" ];
 					xkb = {
