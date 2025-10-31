@@ -1,4 +1,8 @@
 {
+	inputs,
+	...
+}:
+{
 	flake.modules = {
 		homeManager.desktop = {
 			imports = [
