@@ -1,13 +1,13 @@
 {
 	flake.modules = {
-		nixos.dev = {
+		nixos.dev =
 			{ inputs, pkgs, ... }:
 			{
 				programs = {
 					neovim.enable = true;
 				};
 			};
-		};
+
 		homeManager.dev =
 			{ inputs, pkgs, ... }:
 			{
