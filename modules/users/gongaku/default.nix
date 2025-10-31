@@ -17,9 +17,6 @@
 				user = config.flake.meta.users.gongaku;
 			in
 		{
-			programs = {
-			};
-
 			environment.systemPackages = with pkgs; [
 				cpufrequtils # CPU frequency scaling utilities
 				dmidecode # DMI table decorder for hardware information
