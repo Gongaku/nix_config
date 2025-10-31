@@ -43,7 +43,7 @@
 
 				avahi # Network discovery
 				distrobox # Use any linux distro inside your terminal
-				gnome.gnome-tweaks
+				gnome-tweaks
 			];
 
 			users.users."${user.username}" = {
