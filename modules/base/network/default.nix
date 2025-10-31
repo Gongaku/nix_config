@@ -17,6 +17,7 @@
 			networkmanager.dns = "systemd-resolved";
 
 			nameservers = [
+				"1.1.1.1"
 				"9.9.9.9"
 				"9.9.9.10"
 				"9.9.9.11"
