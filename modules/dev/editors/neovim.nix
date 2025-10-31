@@ -1,12 +1,11 @@
 {
 	flake.modules = {
-		homeManager.dev = {
+		homeManager.dev =
 			{ inputs, pkgs, ... }:
 			{
 				programs.neovim = {
 					enable = true;
 				};
 			};
-		};
 	};
 }
