@@ -60,7 +60,7 @@
 			};
 
 
-			environment.defaultPackges = lib.mkForce [
+			environment.defaultPackages = lib.mkForce [
 				pkgs.rsync
 				pkgs.parted
 				pkgs.gptfdisk
