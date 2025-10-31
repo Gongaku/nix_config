@@ -14,6 +14,7 @@
 				programs.neovim = {
 					enable = true;
 					# viAlias = true;
+					package = inputs.neovim-nightly-overlay.packages.${pkgs.system}.default;
 				};
 			};
 	};

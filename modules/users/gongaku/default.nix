@@ -4,6 +4,7 @@
 }:
 {
 	flake = {
+		# Metadata for user
 		meta.users = {
 			gongaku = {
 				email = "132847661+Gongaku@users.noreply.github.com";
@@ -11,6 +12,7 @@
 				username = "gongaku";
 			};
 		};
+
 		modules.nixos.gongaku =
 		{ pkgs, lib, ... }:
 			let
