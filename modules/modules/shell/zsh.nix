@@ -31,7 +31,7 @@
 					"HIST_BEEP"              # Beep when accessing nonexistent history.
 				];
 
-				autosuggestions.enable = true;
+				autosuggestion.enable = true;
 
 				shellAliases = {
 					grep = "grep --color=auto";

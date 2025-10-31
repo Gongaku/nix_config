@@ -66,10 +66,10 @@
 			{ config, pkgs, ... }:
 			{
 				home = {
-					xdg.config.files = {
+					file = {
 						# Python LSP style
 						# Ignore specific errors
-						"pycodestyle".text = ''
+						".config/pycodestyle".text = ''
 							[pycodestyle]
 							ignore = E226,E302,E41,W503,E501
 						'';
@@ -144,10 +144,10 @@
 						vulnix # NixOS vulnerability scanner
 						python3
 					];
-					programs = {
-						bat.enable = true;
-						zsh.enable = true;
-					};
+					# programs = {
+					# 	bat.enable = true;
+					# 	zsh.enable = true;
+					# };
 				};
 			};
 		};
