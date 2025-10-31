@@ -60,16 +60,16 @@
 				daemonCPUSchedPolicy =  "idle";
 			};
 
+			services.displayManager = {
+				autoLogin = {
+					enable = true;
+					user = "${user.username}";
+				};
+			};
+
 			home-manager.users."${user.username}" =
 			{ config, pkgs, ... }:
 			{
-				services.displayManager = {
-					autoLogin = {
-						enable = true;
-						user = "${user.username}";
-					};
-				};
-
 				home = {
 					file = {
 						# Python LSP style
