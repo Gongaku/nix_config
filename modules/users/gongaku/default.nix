@@ -66,7 +66,7 @@
 				services.displayManager = {
 					autoLogin = {
 						enable = true;
-						user = "${config.preferences.user.username}";
+						user = "${user.username}";
 					};
 				};
 
