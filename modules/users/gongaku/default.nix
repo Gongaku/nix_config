@@ -145,10 +145,6 @@
 						vulnix # NixOS vulnerability scanner
 						python3
 					];
-					programs = {
-						bat.enable = true;
-						zsh.enable = true;
-					};
 				};
 			};
 		};
