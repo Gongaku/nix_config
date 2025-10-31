@@ -11,7 +11,7 @@
 	];
 	flake.modules = {
 		nixos.desktop =
-		{ pkgs, lib, ... }:
+		{ pkgs, lib, config, ... }:
 		{
 			xdg = {
 				autostart.enable = true;
