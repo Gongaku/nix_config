@@ -8,7 +8,6 @@
     [
       base
 			desktop
-			dev
       gongaku
       openssh
       root
