@@ -78,6 +78,8 @@
 				};
 			};
 
+
+			home-manager.backupFileExtension = ".bak";
 			home-manager.users."${user.username}" =
 			{ config, pkgs, ... }:
 			{
