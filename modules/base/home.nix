@@ -4,6 +4,8 @@
 	{
 		programs.home-manager.enable = true;
 
+		backupFileExtension = ".bak";
+
 		services = {
 			home-manager.autoExpire = {
 				enable = true;
