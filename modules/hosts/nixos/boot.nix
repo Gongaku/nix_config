@@ -7,7 +7,8 @@
 	flake.modules.nixos."hosts/nixos" = {
 		boot = {
 			loader = {
-
+				systemd-boot.enable = true;
+				efi.canTouchEfiVariables = true;
 			};
 
 			initrd.availableKernelModules = [
