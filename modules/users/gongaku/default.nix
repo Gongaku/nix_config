@@ -67,10 +67,10 @@
 			{ config, pkgs, ... }:
 			{
 				home = {
-					xdg.config.files = {
+					file = {
 						# Python LSP style
 						# Ignore specific errors
-						"pycodestyle".text = ''
+						".config/pycodestyle".text = ''
 							[pycodestyle]
 							ignore = E226,E302,E41,W503,E501
 						'';
