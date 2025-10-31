@@ -50,7 +50,6 @@
 				description = "${user.name}";
 				isNormalUser = true;
 				createHome = true;
-				extraGroups = [];
 				shell = pkgs.zsh;
 				initialPassword = "12345";
 				extraGroups = [
