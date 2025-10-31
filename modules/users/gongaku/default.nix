@@ -53,6 +53,18 @@
 				extraGroups = [];
 				shell = pkgs.zsh;
 				initialPassword = "12345";
+				extraGroups = [
+					"docker"
+					"gamemode"
+					"git"
+					"kvm"
+					"libvirtd"
+					"nix"
+					"network"
+					"networkmanager"
+					"qemu-libvirtd"
+					"wheel"
+					];
 			};
 
 			nix = {
