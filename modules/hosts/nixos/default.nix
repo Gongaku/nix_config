@@ -8,6 +8,7 @@
     [
       base
 			desktop
+			dev
       gongaku
       openssh
       root
@@ -18,6 +19,7 @@
         home-manager.users.gongaku.imports = with config.flake.modules.homeManager; [
           base
 					desktop
+					dev
           shell
         ];
       }
