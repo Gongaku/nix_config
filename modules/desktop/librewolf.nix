@@ -4,7 +4,9 @@
 }:
 {
 	flake.modules = {
-		nixos.desktop = {
+		nixos.desktop =
+			{ pkgs, ... }:
+			{
 				programs.firefox = {
 					enable = true;
 					package = pkgs.librewolf;
@@ -38,7 +40,6 @@
 				environment.etc."firefox/policies/policies.json".target = "librewolf/policies/policies.json";
 		};
 		homeManager.desktop =
-			{ pkgs, ... }:
 			{
 				imports = [
 					inputs.textfox.homeManagerModules.default
